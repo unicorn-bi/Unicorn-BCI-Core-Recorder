@@ -23,7 +23,7 @@ Unicorn BCI Core Recorder is an application used to acquire, visualize and recor
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Filters](#filters)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notch](#notch)<br/>
 &nbsp;&nbsp;&nbsp;[Scope](#scope)<br/>
-&nbsp;&nbsp;&nbsp;[Signal quality scope](#signal-quality-scope)<br/>
+&nbsp;&nbsp;&nbsp;[Signal quality indicators](#signal-quality-indicators)<br/>
 [Using Unicorn BCI Core Recorder for a research experiment](#using-unicorn-bci-core-recorder-for-a-research-experiment)<br/>
 
 ## Installing Unicorn BCI Core Recorder
@@ -331,13 +331,13 @@ The 'Notch' box allows you to apply predefined IIR filters to the raw data to re
 
 he Data Viewer displays incoming data in real-time.  All channels provided by the Unicorn are listed underneath. The data viewer is limited to a time range of 10 seconds. 
 
-### Signal quality scope
+### Signal quality indicators
 
 <p align="center">
 <img src="./img/rec11.png" alt="drawing" width="150"/><br/>
 </p>
 
-The signal quality scope provides feedback about the signal quality. Therefore, the raw EEG is filtered to a certain frequency range where amplitude variations are observed. It takes about 30 seconds until the filters have stabilized and the signal quality scope is reliable. If Unicorn BCI Core Electrodes are not setteling in the expected amplitude range, electrodes turn red, indicating bad signal quality. All Unicorn BCI Core Electrodes should turn green if the EEG amplitude stays in a proper range.
+The signal quality indicators provide feedback about the signal quality. Therefore, the raw EEG is filtered to a certain frequency range where amplitude variations are observed. It takes about 30 seconds until the filters have stabilized and the signal quality scope is reliable. If Unicorn BCI Core Electrodes are not setteling in the expected amplitude range, electrodes turn red, indicating bad signal quality. All Unicorn BCI Core Electrodes should turn green if the EEG amplitude stays in a proper range.
 
 ## Using Unicorn BCI Core Recorder for a research experiment
 
