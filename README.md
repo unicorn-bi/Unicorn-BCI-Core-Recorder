@@ -59,7 +59,7 @@ This button initiates or halts data acquisition. The play button is visible when
 
 ### 2. Record
 
-This button initiates or halts data recording. If data acquisition is not initiated data acquisition and recording are initiated; if data acquisition is running, the recording module is attached according to the current recording configuration. 
+This button initiates or halts data recording.
 
 ### 3. Settings
 
@@ -71,18 +71,18 @@ The settings dialog allows to configure acquisition, recording, network and devi
 <img src="./img/rec5.png" alt="drawing" width="500"/><br/>
 </p>
 
-Acquisition parameters can be modified in the acquisition dialog. It is possible to switch the unicorn input source between 'electrode' and 'test signal'. A rectangular test-signal will be acquired if 'test signal' is selected. The input of the eight Unicorn BCI Core Electrodes will be acquired if 'electrode' is selected. You can also include or exclude Battery Level, Counter, Validation Indicator or Timing from data acquisition. Included signals will be written to files and network streams if enabled. 
+Acquisition parameters can be modified in the acquisition dialog. It is possible to include or exclude Battery Level, Counter, Validation Indicator or Timing from data acquisition. Included signals will be written to files and network streams if enabled. 
 
 The default order is:
 
-Ch. 1 - EXG 1 - EEG channel 1 in microvolts<br/>
-Ch. 2 - EXG 2 - EEG channel 2 in microvolts<br/>
-Ch. 3 - EXG 3 - EEG channel 3 in microvolts<br/>
-Ch. 4 - EXG 4 - EEG channel 4 in microvolts<br/>
-Ch. 5 - EXG 5 - EEG channel 5 in microvolts<br/>
-Ch. 6 - EXG 6 - EEG channel 6 in microvolts<br/>
-Ch. 7 - EXG 7 - EEG channel 7 in microvolts<br/>
-Ch. 8 - EXG 8 - EEG channel 8 in microvolts<br/>
+Ch. 1 - EEG 1 - EEG channel 1 in microvolts<br/>
+Ch. 2 - EEG 2 - EEG channel 2 in microvolts<br/>
+Ch. 3 - EEG 3 - EEG channel 3 in microvolts<br/>
+Ch. 4 - EEG 4 - EEG channel 4 in microvolts<br/>
+Ch. 5 - EEG 5 - EEG channel 5 in microvolts<br/>
+Ch. 6 - EEG 6 - EEG channel 6 in microvolts<br/>
+Ch. 7 - EEG 7 - EEG channel 7 in microvolts<br/>
+Ch. 8 - EEG 8 - EEG channel 8 in microvolts<br/>
 Ch. 9 - CNT - Counter<br/>
 Ch. 10 - BAT - Battery Level in percent<br/>
 Ch. 11 - VALID - Validation Indicator<br/>
@@ -91,7 +91,7 @@ Ch. 13 - STATUS - Status / Trigger Value<br/>
 
 ### Recording settings
 
-Data can be recorder to BDF or CSV files. It is possible to select the recording format in the 'Recording' settings. 'Folder path' and 'File prefix' can be modified as well. 
+Data can be stored in BDF or CSV file format. It is possible to select the recording format in the 'Recording' settings. 'Folder path' and 'File prefix' can be modified as well. 
 
 The default 'Folder path' is set to:
 
