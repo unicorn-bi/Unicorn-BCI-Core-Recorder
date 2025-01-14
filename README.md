@@ -3,8 +3,8 @@
 Unicorn BCI Core Recorder is an application used to acquire, visualize and record data from Unicorn BCI Core devices. Unicorn BCI Core Recorder allows you to process raw EEG with pre-defined Notch and Bandpass filters. Recorded data can be stored in a CSV or BDF files. You can also stream data to external applications via LSL or UDP.
 
 [Installing Unicorn BCI Core Recorder](#installing-unicorn-bci-core-recorder)<br/>
-[Starting Unicorn BCI Core Recorder](#starting-unicorn-bci-core-recorder)<br/>
 [Application](#application)<br/>
+&nbsp;&nbsp;&nbsp;[Connecting to a device](#connecting-to-a-device)<br/>
 &nbsp;&nbsp;&nbsp;[Control bar](#control-bar)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Start/Stop acquisition](#1-startstop-acquisition)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Record](#2-record)<br/>
@@ -22,43 +22,30 @@ Unicorn BCI Core Recorder is an application used to acquire, visualize and recor
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Amplitude range](#amplitude-range)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Filters](#filters)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notch](#notch)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[OSCAR](#oscar)<br/>
 &nbsp;&nbsp;&nbsp;[Scope](#scope)<br/>
 &nbsp;&nbsp;&nbsp;[Signal quality scope](#signal-quality-scope)<br/>
 [Using Unicorn BCI Core Recorder for a research experiment](#using-unicorn-bci-core-recorder-for-a-research-experiment)<br/>
 
 ## Installing Unicorn BCI Core Recorder
 
-Perform the following steps for installation:
-
-1. If there is an old version of the Unicorn BCI Core Recorder package on the computer, please uninstall it.
-2. Close all running applications.
-3. Open the Unicorn BCI Core Recorder directory, select the correct directory for the architecture of the PC (Win64). To install the Unicorn BCI Core Recorder, run setup.exe. If setup asks you for installation of the .NET Framework, confirm the dialog by clicking the Accept button. The installer will install the .NET Framework.
-4. Follow the instructions on the screen. If User Account Control is turned on, additional dialogs may ask for permission. Confirm the dialogs to allow installation of the Unicorn BCI Core Recorder software through User Account Control.
+Unicorn BCI Core Recorder is delivered with g.tec Suite 2024. Ensure that you've installed g.tec Suite 2024 - 1.24.01 or later and the latest update. 'Unicorn BCI Core Recorder' is listed in the Applications section.
 
 <p align="center">
-<img src="./img/rec1.png" alt="drawing" width="400"/><br/>
-</p>
-
-5. Choose the installation folder (default is C:\Program Files\gtec\) where the install routine copies all necessary driver files and press Next.
-    Follow the instructions on the screen. When the following window informs you about completion of the installation, click Close to complete.
-
-## Uninstalling Unicorn BCI Core Recorder
-
-Remove Unicorn BCI Core Recorder using the standard uninstall process of Windows accessed via the Control Panel.
-
-## Starting Unicorn BCI Core Recorder
-
-Open Unicorn BCI Core Recorder by double-clicking the desktop icon. Turn the Unicorn BCI Core on by placing the Unicorn BCI Core amplifier on the Unicorn BCI Core basestation. Unicorn BCI Core Recorder should discover the device within some seconds. Select the device and click the connect button.
-
-<p align="center">
-<img src="./img/rec2.png" alt="drawing" width="500"/><br/>
+<img src="./img/rec1.png" alt="drawing" width="500"/><br/>
 </p>
 
 ## Application
 
 <p align="center">
 <img src="./img/rec3.png" alt="drawing" width="500"/><br/>
+</p>
+
+### Connecting to a device
+
+The Connection dialog is displayed after opening 'Unicorn BCI Core Recorder'. Turn your device on and wait until the device is discovered. Select the device and click the 'Connect' button.
+
+<p align="center">
+<img src="./img/rec2.png" alt="drawing" width="500"/><br/>
 </p>
 
 ### Control bar
@@ -336,10 +323,6 @@ The 'Notch' box allows you to apply predefined IIR filters to the raw data to re
 - Cascading 60 Hz - removes 60 Hz and multiples
 - Cascading 50 & 60 Hz  - removes 50, 60 Hz and multiples
 - None - No filter applied
-
-#### OSCAR
-
-OSCAR is a real-time pre-processing module that removes motion, cable, blink, and other artifacts from EEG signals. It saves valuable data and time and enables BCI experiments under difficult conditions. Oscar can be activated or deactivated from the check box.
 
 ### Data viewer
 <p align="center">
