@@ -294,7 +294,7 @@ The amplitude range changes the displayed amplitude range of all EEG channels in
 
 #### Filters
 
-The 'Filter' box allows you to apply predefined IIR filters to the raw data to extract specified frequency bands and remove artifacts. Predefined filters settings are:
+The 'Filter' box allows you to apply predefined IIR filters to the raw data to extract specified frequency bands and remove artifacts. Data recordings and network interfaces are restarted if filters are reconfigured during a running data acquisition. Predefined filters settings are:
 
 - 0.1 – 30 Hz Bandpass
 - 0.1 – 50 Hz Bandpass
@@ -314,7 +314,7 @@ The 'Filter' box allows you to apply predefined IIR filters to the raw data to e
 
 #### Notch
 
-The 'Notch' box allows you to apply predefined IIR filters to the raw data to remove power line hum from data.
+The 'Notch' box allows you to apply predefined IIR filters to the raw data to remove power line hum from data. Data recordings and network interfaces are restarted if filters are reconfigured during a running data acquisition.
 
 - 50 Hz 
 - 60 Hz 
