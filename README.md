@@ -83,15 +83,16 @@ Ch. 5 - EEG 5 - EEG channel 5 in microvolts<br/>
 Ch. 6 - EEG 6 - EEG channel 6 in microvolts<br/>
 Ch. 7 - EEG 7 - EEG channel 7 in microvolts<br/>
 Ch. 8 - EEG 8 - EEG channel 8 in microvolts<br/>
-Ch. 9 - CNT - Counter<br/>
-Ch. 10 - BAT - Battery Level in percent<br/>
-Ch. 11 - VALID - Validation Indicator<br/>
-Ch. 12 - DT - Delta time / Timespan between two received samples in milliseconds<br/>
-Ch. 13 - STATUS - Status / Trigger Value<br/>
+Ch. 9 - SAT - Saturation flags<br/>
+Ch. 10 - CNT - Counter<br/>
+Ch. 11 - BAT - Battery Level in percent<br/>
+Ch. 12 - VALID - Validation Indicator<br/>
+Ch. 13 - DT - Delta time / Timespan between two received samples in milliseconds<br/>
+Ch. 14 - STATUS - Status / Trigger Value<br/>
 
 ### Recording settings
 
-Data can be stored in BDF or CSV file format. It is possible to select the recording format in the 'Recording' settings. 'Folder path' and 'File prefix' can be modified as well. 
+Data can be stored in BDF or CSV file format. It is possible to select the recording format in the 'Recording' settings. 'Folder path' and 'File prefix' can be modified as well. It is possible to record raw data and processed data. Raw data and processed data can be enabled and disabled in the 'Recording' settings.
 
 The default 'Folder path' is set to:
 
