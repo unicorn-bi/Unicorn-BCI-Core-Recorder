@@ -63,7 +63,7 @@ This button initiates or halts data recording.
 
 ### 3. Settings
 
-The settings dialog allows to configure acquisition, recording, network and device settings.
+The settings dialog allows to configure acquisition, recording, network and device settings. To exit the settings dialog simply click the settings button again. 
 
 ### Acquisition settings
 
@@ -71,7 +71,7 @@ The settings dialog allows to configure acquisition, recording, network and devi
 <img src="./img/rec5.png" alt="drawing" width="500"/><br/>
 </p>
 
-Acquisition parameters can be modified in the acquisition dialog. It is possible to include or exclude Battery Level, Counter, Validation Indicator or Timing from data acquisition. Included signals will be written to files and network streams if enabled. 
+Acquisition parameters can be modified in the acquisition dialog. It is possible to include or exclude Battery Level, Counter, Validation Indicator, Timing or Saturation Flags from data acquisition. Included signals will be written to files and network streams if enabled. 
 
 The default order is:
 
@@ -92,7 +92,7 @@ Ch. 14 - STATUS - Status / Trigger Value<br/>
 
 ### Recording settings
 
-Data can be stored in BDF or CSV file format. It is possible to select the recording format in the 'Recording' settings. 'Folder path' and 'File prefix' can be modified as well. It is possible to record raw data and processed data. Raw data and processed data can be enabled and disabled in the 'Recording' settings.
+Data can be stored in BDF or CSV file format. It is possible to select the recording format in the 'Recording' settings. 'Folder path' and 'File prefix' can be modified as well. It is possible to record raw data and processed data. Raw data and processed data can be enabled and disabled in the 'Recording' settings. Processed data means that the filtered which were selected are applied to the EEG data.
 
 The default 'Folder path' is set to:
 
